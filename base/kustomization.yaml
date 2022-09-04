@@ -1,0 +1,5 @@
+resources:
+- Service.next-web.k8s.yaml
+- Deployment.next-web.k8s.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
